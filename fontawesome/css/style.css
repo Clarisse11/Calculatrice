@@ -1,0 +1,54 @@
+.container{
+    width: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 75px);
+}
+.orange{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: orange;
+}
+.orange:hover{
+    cursor: pointer;
+    background-color: #dfb07e;
+}
+.orange:active{
+    cursor: pointer;
+    background-color: #dd8d37;
+}
+.touch{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.touch:hover{
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+.touch:active{
+    cursor: pointer;
+    background-color: #bbbcbe;
+}
+.screen{
+    grid-column: span 4;
+    background-color: black;
+    text-align: right;
+}
+.screen-div{
+    display: inline-block;
+    color: white;
+    margin: 25px auto !important;
+}
+.clear{
+    grid-column: span 2;
+}
+.zero{
+    grid-column: span 3;
+}
